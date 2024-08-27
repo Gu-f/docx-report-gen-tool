@@ -1,0 +1,46 @@
+BaseInterface, TitleToolBar, #view {
+    background-color: transparent;
+}
+
+QScrollArea {
+    border: none;
+}
+
+TitleToolBar > StrongBodyLabel {
+    color: black;
+}
+
+TitleToolBar > CaptionLabel {
+    color: rgb(95, 95, 95);
+}
+
+SubDocWidget {
+    background-color: transparent;
+}
+
+TitleLabel,
+StrongBodyLabel {
+    color: black;
+}
+
+SubDocWidget > #content_area {
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.024);
+}
+
+SubDocWidget > #content_area QLabel {
+    font: 14px 'Segoe UI', 'Microsoft YaHei', 'PingFang SC';
+    color: black;
+}
+
+SubDocWidget> #content_area InfoBadge {
+    font-size: 11px;
+}
+
+#contentWidget {
+    background-color: rgba(255, 255, 255, 0.667);
+    border-top: 1px solid rgba(0, 0, 0, 0.05);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}

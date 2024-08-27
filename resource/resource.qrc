@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/tool_res">
+
+        <file>qss/light/base_interface.qss</file>
+
+    </qresource>
+</RCC>
